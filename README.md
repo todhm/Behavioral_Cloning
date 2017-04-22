@@ -20,7 +20,7 @@
 [image5]: ./high_gamma.png  "Image with high gamma value"
 [image6]: ./shadowed.png "Shadowed image"
 [image7]: ./cropped_img.png "Cropped image"
-[image8]: ./video_img.png "video image"
+[image8]: ./video_img.jpg "video image"
 
 ---
 ### Files Submitted 
@@ -51,7 +51,8 @@
 
 #### Flipping image. 
 * Flipping image horizontally to augment data. 
-![alt text][image2] ![alt text][image3]
+![alt text][image2]  
+![alt text][image3]
 
 #### Adjust Brightness. 
 * I produced function to return random gamma adjusted image to augment data. 
