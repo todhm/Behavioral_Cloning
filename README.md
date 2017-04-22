@@ -58,12 +58,12 @@
  ![alt text][image4]  ![alt text][image5]
 
 #### Make Shadow. 
-* Make random shadow on image to augment more data. 
+* Make random shadow on image to augment more data. </br>
 ![alt text][image6]
 
 #### Cropping image.
 * Cropped unnecessary part of the image. 
-* The function was implemented by using cv2.resize function rather than cropping2D layer of keras since it show us more competence in training velocity of model. 
+* The function was implemented by using cv2.resize function rather than cropping2D layer of keras since it show us more competence in training velocity of model. </br>
 ![alt text][image7]
 
 #### Normalization. 
