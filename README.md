@@ -18,9 +18,9 @@
 [image3]: ./after_flipping.png "Model Structure"
 [image4]: ./low_gamma.png "Image with low gamma value"
 [image5]: ./high_gamma.png  "Image with high gamma value"
-[image6]: ./shadowed.png "Shadowed image"
+[image6]: ./shadowed_img.png "Shadowed image"
 [image7]: ./cropped_img.png "Cropped image"
-[image8]: ./video_img.jpg "video image"
+[image8]: ./video_img.png "video image"
 
 ---
 ### Files Submitted 
@@ -50,9 +50,8 @@
 * Image from right and left Camera was added  by adding and subtracting 0.2 from its original steering angle
 
 #### Flipping image. 
-* Flipping image horizontally to augment data. 
-![alt text][image2]  
-![alt text][image3]
+* Flipping image horizontally to augment data. </br>
+![alt text][image2] </br>  ![alt text][image3]
 
 #### Adjust Brightness. 
 * I produced function to return random gamma adjusted image to augment data. 
