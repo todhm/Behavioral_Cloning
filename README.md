@@ -20,7 +20,7 @@
 [image5]: ./high_gamma.png  "Image with high gamma value"
 [image6]: ./shadowed_img.png "Shadowed image"
 [image7]: ./cropped_img.png "Cropped image"
-[image8]: ./video_img.png "video image"
+[image8]: ./video_img.jpg "video image"
 
 ---
 ### Files Submitted 
