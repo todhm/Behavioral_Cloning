@@ -84,7 +84,7 @@ def get_next_image_files(samples,batch_size):
     return batch_imgs
 
 
-#Function to make return randomly adjusted image to augment data. 
+#Function to make return randomly adjusted image to augment data.
 def return_processing(img_path,steering,training = True):
 
     img = cv2.imread(img_path)

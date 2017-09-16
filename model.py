@@ -13,9 +13,9 @@ from sklearn.utils import shuffle
 from keras.models import load_model
 
 
-samples = pd.read_csv('../videos3/driving_log.csv',skiprows = 0)
+samples = pd.read_csv('./videos3/driving_log.csv',skiprows = 0)
 samples.columns = ['center_path','left_path','right_path','steering_angle','throttle','break','speed']
-samples[['center_path','left_path','right_path']] = samples[['center_path','left_path','right_path']].applymap(lambda x : x.replace('/Users/hm/Desktop/homemaster/week13','/home/ml/'))
+samples[['center_path','left_path','right_path']] = samples[['center_path','left_path','right_path']].applymap(lambda x : x.replace('/Users/hm/Desktop/homemaster/week13','./'))
 
 #Code to add left and right side of camera
 left_df = samples[['left_path','steering_angle']]

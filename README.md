@@ -5,6 +5,7 @@
 
 #### The goals / steps of this project are the following:
 * Use the simulator to collect data of good driving behavior
+* Collect more data to be used for the car to avoid collusion. 
 * Build, a convolution neural network in Keras that predicts steering angles from images
 * Train and validate the model with a training and validation set
 * Test that the model successfully drives around track one without leaving the road
@@ -13,14 +14,14 @@
 
 [//]: # (Image References)
 
-[image1]: ./model_structure.001.png
-[image2]: ./before_flipping.png "Before flipping"
-[image3]: ./after_flipping.png "Model Structure"
-[image4]: ./low_gamma.png "Image with low gamma value"
-[image5]: ./high_gamma.png  "Image with high gamma value"
-[image6]: ./shadowed_img.png "Shadowed image"
-[image7]: ./cropped_img.png "Cropped image"
-[image8]: ./video_img.jpg "video image"
+[image1]: ./images/model_structure.001.png
+[image2]: ./images/before_flipping.png "Before flipping"
+[image3]: ./images/after_flipping.png "Model Structure"
+[image4]: ./images/low_gamma.png "Image with low gamma value"
+[image5]: ./images/high_gamma.png  "Image with high gamma value"
+[image6]: ./images/shadowed_img.png "Shadowed image"
+[image7]: ./images/cropped_img.png "Cropped image"
+[image8]: ./images/video_img.jpg "video image"
 
 ---
 ### Files Submitted 
@@ -40,7 +41,7 @@
 * 1.Make 3 round labs witn normal direction. 
 * 2.Make 1 round reverse direction lab.
 * 3.Try to turn smoothly as possible especially on the curve track. 
-* 4.Make recovering video from various parts. 
+* 4.Make random driving to catch the car recovering movement on the car to avoid collusion. 
     
 ---
 ### Data augmentation & Preprocessing
@@ -51,7 +52,7 @@
 
 #### Flipping image. 
 * Flipping image horizontally to augment data. </br>
-![alt text][image2] </br>  ![alt text][image3]
+![alt text][image2]   ![alt text][image3]
 
 #### Adjust Brightness. 
 * I produced function to return random gamma adjusted image to augment data. 
