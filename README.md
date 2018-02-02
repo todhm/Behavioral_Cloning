@@ -68,7 +68,7 @@
 ![alt text][image7]
 
 #### Normalization. 
-* The image was normalized by deviding 255.0 and subtract 0.5 to it . ** (x/255.0) - 0.5 ** 
+* The image was normalized by dividing 255.0 and subtract 0.5 to every pixel . ** (x/255.0) - 0.5 ** 
 
 ---
 ### Model Structure
